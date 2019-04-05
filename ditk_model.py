@@ -2,11 +2,9 @@ from abc import ABCMeta, abstractmethod
 
 
 class DITKModel:
-    # Any shared data strcutures or methods should be defined as part of the parent class.
+    # Since SQL_NET is listed as group 13, I will just be handling my own modules, they are implemented in the child
+    # classes respectively
 
-    # A list of shared arguments should be defined for each of the following methods and replace (or precede) *args.
-
-    # The output of each of the following methods should be defined clearly and shared between all methods implemented by members of the group.
     __metaclass__ = ABCMeta
     @classmethod
     @abstractmethod

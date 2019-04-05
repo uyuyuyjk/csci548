@@ -9,9 +9,9 @@ This repo provides an implementation of SQLNet and Seq2SQL neural networks for p
 ## Bibtex
 
 ## Installation
-The data is in `data.tar.bz2`. Unzip the code by running
+The data is in `data.tar.bz2`. download the data and Unzip the code by running
 ```bash
-tar -xjvf data.tar.bz2
+bash download_data.sh
 ```
 
 The code is written using PyTorch in Python 2.7. Check [here](http://pytorch.org/) to install PyTorch. You can install other dependency by running 
